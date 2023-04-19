@@ -1,0 +1,30 @@
+@import "fonts";
+@import "null";
+@import "slick-slider";
+
+body{
+    //body я никак не ограничиваю,
+    //тут стилизую самый частоиспользуемый на странице шрифт
+    //и цвет фона, если он глобальный по всей странице
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;  //если не указать высоту флек-контейнера, то футер не будет прибиваться к низу страницы
+    overflow: clip;
+}
+.header {
+}
+.main {
+    flex: 1 1 auto;
+}
+.footer {
+}
+[class*="__container"]{
+    
+}
+
+/*-------BREAKPOINTS-------*/
+@import "breakpoints.scss";
+/*ОСТАВЛЯТЬ ЭТО ВСЕ В САМОМ НИЗУ*/
