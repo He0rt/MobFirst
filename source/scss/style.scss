@@ -3,9 +3,10 @@
 @import "slick-slider";
 
 body{
-    //body я никак не ограничиваю,
-    //тут стилизую самый частоиспользуемый на странице шрифт
-    //и цвет фона, если он глобальный по всей странице
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #e6efb7;  //потом удалить
 }
 
 .wrapper {
