@@ -1,9 +1,42 @@
-@media (max-width: 1092px) {
+// @media (max-width: 1092px) {
+// }
+
+// @media(max-width: 767.98px){
+// }
+
+// @media(max-width:479.98px){
+
+// }
+
+
+@media (min-width: 640px){
+    //header
+    .header__inner {
+        min-height: 100px;
+
+    }
+    .logo {
+        margin-left: 18px;
+    }
+//////////////////////////////////////////////
+    //
 }
 
-@media(max-width: 767.98px){
+@media (min-width: 768px){
+    .logo {
+        margin-left: 0;
+    }
 }
 
-@media(max-width:479.98px){
 
+@media (min-width: 768px){
+    .logo {
+        margin-left: 4px;
+    }
+}
+
+@media (min-width: 1024px){
+    .logo {
+        margin-left: 0;
+    }
 }
